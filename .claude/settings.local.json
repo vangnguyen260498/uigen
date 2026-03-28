@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm audit:*)",
+      "Bash(npm install:*)",
+      "Bash(grep -rn \"from ''ai''\" src/)",
+      "Bash(npm run:*)",
+      "Bash(npx vitest:*)",
+      "mcp__playwright"
+    ],
+    "deny": []
+  }
+}
